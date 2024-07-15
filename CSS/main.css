@@ -1,7 +1,39 @@
+body {
+    background-color: #1e1e1e;
+}
+
 .header-main {
 
     width: 100%;
     height: 60px;
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: normal;
+    align-items: center;
+}
+
+.header-main div {
+    height: 30px;
+}
+
+.header-main .div-1 {
+    background-color: rgb(90, 102, 98);
+    order: 1;
+    flex: 0 0 100px;
+}
+
+.header-main .div-2 {
+    background-color: blueviolet;
+    order: 2;
+    flex: 0 0 100px;
+}
+
+.header-main .div-3 {
+    background-color: blue;
+    order: 3;
+    flex: 0 0 100px;
 }
